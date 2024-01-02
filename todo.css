@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background-color: #f0e9d9
+}
+
+.top{
+    font-size: 35px;
+    color:rgb(51, 7, 212);
+    text-align: center;
+    font-weight: 700;
+}
+
+.todo-grid, .enter-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.enter-grid{
+    margin-bottom: 10px; 
+}
+
+.work,.wdate{
+    font-size: 15px;
+    padding: 6px;
+}
+
+.add,.delete{
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.add{
+    background-color: green;
+}
+
+.delete{
+    background-color: darkred;
+}
+
+.anu{
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
+
+
